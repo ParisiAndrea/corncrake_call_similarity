@@ -60,7 +60,7 @@ ggsave(filename = 'error_bar.jpg',
        width = 260, height = 120, units = "mm",
        dpi = 600)
 
-###END
+###Get some summary
 mean(t[type=='season' & ppd>=.85]$distance)
 sd(t[type=='season' & ppd>=.85]$distance)
 
