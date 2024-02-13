@@ -37,11 +37,11 @@ wp = wsby %>%
   ggplot(aes(cluster, Mean)) +
   geom_point(size = 3) +
   geom_errorbar(aes(ymin = Min, ymax = Max), width = .3, linewidth = 1) +
-  geom_text(aes(cluster, y = -60,label = paste0('N=', Sample_size))) +
+  geom_text(aes(cluster, y = -70,label = paste0('N=', Sample_size))) +
   scale_x_discrete(name = 'Clusters') +
   scale_y_continuous(name = 'Distance (m)',
                      breaks = c(0,250,500,750,1000,1250,1500,1750,2000),
-                     limits = c(-60,2000)) +
+                     limits = c(-70,2000)) +
   theme_pubclean() +
   theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1)) +
   facet_wrap(~type, 
@@ -50,7 +50,7 @@ wp = wsby %>%
                                       'year' = 'Between-year'))) +
   geom_line(aes(y = overall, group = 0),
             linetype = 3,color = '#186356', linewidth = 1) +
-  theme(text=element_text(size=15))
+  theme(text=element_text(size=20))
 
 print(wp)
 
