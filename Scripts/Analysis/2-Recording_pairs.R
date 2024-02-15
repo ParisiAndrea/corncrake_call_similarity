@@ -165,6 +165,7 @@ t = f %>%
              corncrake_1=='30-ZOOM0004'~'falcarragh',
              corncrake_1=='31-ZOOM0001'~'castles'
            ))
+
 #change cluster name to number
 t = t %>%
   mutate(cluster = 
@@ -214,11 +215,13 @@ t = t %>%
          #delete pairs of recordings made on the same night
          date_dif = abs(as.numeric(as.POSIXct(date_2) - as.POSIXct(date_1))/86400),
          ppd = round(ppd, digits = 2)) %>%
-  filter(distance < 2000,
-         date_2 > date_1,
-         ppd >= .85,
-         date_dif > 1) %>%
-  
+  filter(date_2 > date_1,
+         date_dif > 1)
+
+t = t %>% filter(ppd >= .85)
+t = t %>% filter(distance < 2000)
+
+t = t %>%
   ##DELETE IMPOSSIBLE MATCHES BASED ON PPDs
   mutate(delete = case_when(
     corncrake_2 == '16-ZOOM0013' & corncrake_1 == '2-ZOOM0008'~1,

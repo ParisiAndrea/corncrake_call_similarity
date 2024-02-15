@@ -8,8 +8,7 @@ sapply(c('data.table','dplyr',
 #set working directory
 setwd('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_similarity')
 
-x = getURL("https://raw.githubusercontent.com/ParisiAndrea/corncrake_call_similarity/main/Files/PPD_files.csv?token=GHSAT0AAAAAACODNRA26QVQI42CCRSIKMP2ZOLJ4LA")
-dc <- fread(text = x)
+dc = fread('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/PPD_files.csv')
 
 #reshape to have columns for each recording 
 n = dc %>% 
