@@ -216,12 +216,8 @@ z = z %>%
          date_dif = abs(as.numeric(as.POSIXct(date_2) - as.POSIXct(date_1))/86400),
          ppd = round(ppd, digits = 2)) %>%
   filter(date_2 > date_1,
-         date_dif > 1)
-
-t = z %>% filter(ppd >= .85,
-                 distance < 2000)
-
-t = t %>%
+         date_dif > 1) %>%
+  
   ##DELETE IMPOSSIBLE MATCHES BASED ON PPDs
   mutate(delete = case_when(
     corncrake_2 == '16-ZOOM0013' & corncrake_1 == '2-ZOOM0008'~1,
@@ -247,5 +243,10 @@ t = t %>%
   filter(delete == 0) %>%
   dplyr::select(-delete) %>%
   as.data.table() 
+
+t = z %>% filter(ppd >= .85,
+                 distance < 2000)
+
+
 
 ###END
