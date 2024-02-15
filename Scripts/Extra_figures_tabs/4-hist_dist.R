@@ -7,7 +7,7 @@ hs = ggplot(h, aes(x=distance)) +
   scale_x_continuous(name = 'Distance (km)',
                      breaks = 0:10,
                      limits = c(0,10)) +
-  scale_y_continuous(name = 'Pairs of recordings',
+  scale_y_continuous(name = 'Recording pairs',
                      breaks = seq(0,55,5)) +
   theme_pubclean(20)
 
