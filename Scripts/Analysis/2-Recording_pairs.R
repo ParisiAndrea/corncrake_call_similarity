@@ -59,7 +59,7 @@ head(f)
 unique(f$corncrake_1)
 
 #####PART 2: CREATE PAIRS and add cluster names
-t = f %>% 
+z = f %>% 
   mutate(clusters = 
            case_when(
              corncrake_1=='1-ZOOM0001'~'drumnatinny',
@@ -167,7 +167,7 @@ t = f %>%
            ))
 
 #change cluster name to number
-t = t %>%
+z = z %>%
   mutate(cluster = 
            case_when(
              clusters == 'aghadoon' ~ '#1',
@@ -191,21 +191,21 @@ t = t %>%
   dplyr::select(-clusters)
 
 #merge to get dates, year for 1
-t = fread('./call_match.csv') %>%
+z = fread('./call_match.csv') %>%
   mutate(file_name = paste(batch,file_name, sep = '-')) %>%
   dplyr::select(file_name,year,date,time,n_coor,w_coor) %>%
   rename(corncrake_1 = file_name) %>%
-  merge(t,.,by = 'corncrake_1')
+  merge(z,.,by = 'corncrake_1')
 
 #merge to get dates, year for 2
-t = fread('./call_match.csv') %>%
+z = fread('./call_match.csv') %>%
   mutate(file_name = paste(batch,file_name, sep = '-')) %>%
   dplyr::select(file_name,year,date,time,n_coor,w_coor) %>%
   rename(corncrake_2 = file_name) %>%
-  merge(t,.,by = 'corncrake_2', suffixes = c("_1","_2"))
+  merge(z,.,by = 'corncrake_2', suffixes = c("_1","_2"))
 
 #create a variable for within season and between years recordings
-t = t %>%
+z = z %>%
   mutate(type = 
            case_when(
              year_1 == year_2 ~ 'season',
@@ -218,8 +218,8 @@ t = t %>%
   filter(date_2 > date_1,
          date_dif > 1)
 
-t = t %>% filter(ppd >= .85)
-t = t %>% filter(distance < 2000)
+t = z %>% filter(ppd >= .85,
+                 distance < 2000)
 
 t = t %>%
   ##DELETE IMPOSSIBLE MATCHES BASED ON PPDs

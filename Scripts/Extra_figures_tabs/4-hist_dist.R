@@ -15,7 +15,7 @@ hs = ggplot(t, aes(x=distance)) +
 print(hs)
 
 ggsave(filename = 'hist_distance.jpg',
-       hp,
+       hs,
        path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/graphs',
        width = 200, height = 100, units = "mm",
        dpi = 600)
