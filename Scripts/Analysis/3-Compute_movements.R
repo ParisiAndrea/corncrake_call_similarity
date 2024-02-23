@@ -61,11 +61,11 @@ ggsave(filename = 'error_bar.jpg',
        dpi = 600)
 
 ###Get some summary
-mean(t[type=='season' & ppd>=.85]$distance)
-sd(t[type=='season' & ppd>=.85]$distance)
+mean(t[type=='season']$distance)
+sd(t[type=='season']$distance)
 
-mean(t[type=='year' & ppd>=.85]$distance)
-sd(t[type=='year' & ppd>=.85]$distance)
+mean(t[type=='year']$distance)
+sd(t[type=='year']$distance)
 
 ###TO GET TABLES
 

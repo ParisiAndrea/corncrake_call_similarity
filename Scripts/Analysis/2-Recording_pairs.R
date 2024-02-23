@@ -247,6 +247,6 @@ z = z %>%
 t = z %>% filter(ppd >= .85,
                  distance < 2000)
 
-
+#N=77
 
 ###END
