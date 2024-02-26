@@ -4,14 +4,12 @@ sapply(c('data.table','dplyr','car','coefplot2','sjPlot','performance','MuMIn','
        require, 
        character.only=T)
 
-ran01 = function(x){(x-min(x))/(max(x)-min(x))}
-
 #merge pairs info with habitat info
 xx = t %>%
   merge(.,p, by = c('cluster','corncrake_1','corncrake_2')) %>%
   mutate(cluster = as.factor(cluster),
          distance = log(distance),
-         enn_mn = ran01(-1*(enn_mn*10^3)+1), #to connectivity
+         enn_mn = -1*(enn_mn*10^3)+1, #to connectivity
          margin = margin/10^6,
          grass = grass/10^6,
          elc = factor(elc),
