@@ -10,7 +10,7 @@ p = ggplot() + coord_fixed() +
 
 
 ###CORNCRAKE LOCATIONS
-recs = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/shp/corncrake_locs.shp')
+recs = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/corncrake_locs.shp')
 
 recs = spTransform(recs, CRS('EPSG: 29902')) %>% 
   as.data.table() %>% 
@@ -19,14 +19,14 @@ recs = spTransform(recs, CRS('EPSG: 29902')) %>%
 recs = fortify(recs)
 
 ###IRELAND
-ire_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/ecoacoustics_paper/shp/ireland.shp')
+ire_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/ireland.shp')
 
 ire_shp = spTransform(ire_shp, CRS('EPSG: 29902'))
 
 ire_shp = fortify(ire_shp)
 
 ire <- p + geom_polygon(data=ire_shp, aes(x=long, y=lat, group=group), 
-                        colour='grey40', fill="grey40") +
+                        colour='grey40', fill="white") +
   geom_rect(aes(ymax = 2.7e+5, ymin = 2.5e+5, xmin = .5e+5, xmax = .6e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
   geom_rect(aes(ymax = 3.45e+5, ymin = 3.15e+5, xmin = .6e+5, xmax = .75e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
   geom_rect(aes(ymax = 4.45e+5, ymin = 4.3e+5, xmin = 1.85e+5, xmax = 2.1e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
@@ -48,7 +48,7 @@ ire <- p + geom_polygon(data=ire_shp, aes(x=long, y=lat, group=group),
 ire
 
 ###MULLET
-mul_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/ecoacoustics_paper/shp/mullet.shp')
+mul_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/mullet.shp')
 
 mul_shp = spTransform(mul_shp, CRS('EPSG: 29902'))
 
@@ -56,7 +56,7 @@ mul_shp = fortify(mul_shp)
 
 mul <- p + 
   geom_polygon(data=mul_shp, aes(x=long, y=lat, group=group), 
-               colour='grey40', fill="grey40") +
+               colour='grey40', fill="white") +
   geom_point(data=recs[population == 'mullet'], 
              aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
   ggsn::scalebar(mul_shp, dist_unit = 'km', dist = 2, transform = F, 
@@ -71,7 +71,7 @@ mul <- p +
 mul
 
 ##GALWAY
-gal_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/shp/galway.shp')
+gal_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/galway.shp')
 
 gal_shp = spTransform(gal_shp, CRS('EPSG: 29902'))
 
@@ -79,7 +79,7 @@ gal_shp = fortify(gal_shp)
 
 gal <- p + 
   geom_polygon(data=gal_shp, aes(x=long, y=lat, group=group), 
-               colour='grey40', fill="grey40") +
+               colour='grey40', fill="white") +
   geom_point(data=recs[population == 'galway'], 
              aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
   ggsn::scalebar(gal_shp, dist_unit = 'km', dist = 1, transform = F, 
@@ -95,7 +95,7 @@ gal
 
 
 ##W_DONEGAL
-wdo_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/shp/w_donegal.shp')
+wdo_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/w_donegal.shp')
 
 wdo_shp = spTransform(wdo_shp, CRS('EPSG: 29902'))
 
@@ -103,7 +103,7 @@ wdo_shp = fortify(wdo_shp)
 
 wdo <- p + 
   geom_polygon(data=wdo_shp, aes(x=long, y=lat, group=group), 
-               colour='grey40', fill="grey40") +
+               colour='grey40', fill="white") +
   geom_point(data=recs[population == 'w_donegal'], 
              aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
   ggsn::scalebar(wdo_shp, dist_unit = 'km', dist = 2, transform = F,
@@ -120,7 +120,7 @@ wdo
 
 ###E_DONEGAL
 ##W_DONEGAL
-edo_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/shp/e_donegal.shp')
+edo_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/e_donegal.shp')
 
 edo_shp = spTransform(edo_shp, CRS('EPSG: 29902'))
 
@@ -128,7 +128,7 @@ edo_shp = fortify(edo_shp)
 
 edo <- p + 
   geom_polygon(data=edo_shp, aes(x=long, y=lat, group=group), 
-               colour='grey40', fill="grey40") +
+               colour='grey40', fill="white") +
   geom_point(data=recs[population == 'e_donegal'], 
              aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
   ggsn::scalebar(edo_shp, dist_unit = 'km', dist = 1, transform = F,
@@ -158,7 +158,7 @@ print(mp)
 #SAVE
 ggsave('map.jpg',
        mp,
-       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/graphs',
+       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Graphs/',
        width = 300,
        height = 180,
        units = 'mm',
