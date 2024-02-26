@@ -6,7 +6,6 @@ sapply(c('data.table','dplyr','stringr',
        require, 
        character.only=T)
 
-
 #GET CENTROIDS
 #t %>%
 #  group_by(type, cluster,corncrake_1,corncrake_2) %>%
