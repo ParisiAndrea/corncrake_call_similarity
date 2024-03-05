@@ -7,18 +7,20 @@ sapply(c('data.table','dplyr',
        require, 
        character.only=T)
 
+#
+setwd('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Sound/')
 
 #CREATE DATASETS
 ####
-wav1 <-  readWave('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/ZOOM0018.WAV_cleaned.wav',
+wav1 <-  readWave('./ZOOM0018.WAV_cleaned.wav',
                   from = 9.8, to = 16, units = 'seconds') %>% channel('right')
 
 ####
-wav2 <-  readWave('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/ZOOM0018.WAV_cleaned.wav',
+wav2 <-  readWave('./ZOOM0018.WAV_cleaned.wav',
                   from = 10.1, to = 10.3, units = 'seconds') %>% channel('left')
 
 ####
-wav3 <-  readWave('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/ZOOM0018.WAV_cleaned.wav',
+wav3 <-  readWave('./ZOOM0018.WAV_cleaned.wav',
                   from = 10.113, to = 10.16, units = 'seconds')  %>% channel('left')
 
 ### PLOTTING
@@ -37,7 +39,7 @@ g2 = ggplot(data.frame(amp = wav2@left,
                        time = seq_along(wav2@left)/10^5)) +
   geom_line(aes(time, amp), color = '#186356') +
   scale_x_continuous(name = 'Time (s)') +
-  scale_y_continuous('') +
+  scale_y_continuous('Amplitude (kU)') +
   theme_pubr() +
   theme(axis.text.y = element_text(angle = 90, vjust = 1, hjust=.5),
         plot.margin = margin(, .4, , , "cm"))
@@ -87,9 +89,9 @@ print(pp)
 
 ###SAVE
 ggsave(filename = 'wave.jpg',  #filename = 'wave.svg'
-       pp,
-       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/graphs',
-       width = 240, height = 180, units = "mm",
+       g2,
+       path = getwd(),
+       width = 300, height = 180, units = "mm",
        dpi = 600)
 
 #END

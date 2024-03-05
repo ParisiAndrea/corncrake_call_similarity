@@ -95,8 +95,8 @@ f5 = ggplot(rd1) +
                                'SNG'='#186356',
                                'MARGIN'='#FAAB36'),
                     labels=c('Background',
-                             'Semi-natural grassland',
-                             'Margin features'),
+                             'Margin features',
+                             'Semi-natural grassland'),
                     name = '') +
   ggtitle('Connectivity') +
   theme_void() +

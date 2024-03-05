@@ -1,9 +1,11 @@
 #load packages
 sapply(c('data.table', 'dplyr', 'tidyr','ggplot2',
          'rgdal','rgeos','maptools','tmap','ggpubr',
-         'terra','ggsn','broom','maps','grid'), 
+         'terra','ggsn','broom','maps','grid',''), 
        require, 
        character.only=T)
+
+set
 
 p = ggplot() + coord_fixed() +
   xlab("") + ylab("")
@@ -31,20 +33,20 @@ ire <- p + geom_polygon(data=ire_shp, aes(x=long, y=lat, group=group),
   geom_rect(aes(ymax = 3.45e+5, ymin = 3.15e+5, xmin = .6e+5, xmax = .75e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
   geom_rect(aes(ymax = 4.45e+5, ymin = 4.3e+5, xmin = 1.85e+5, xmax = 2.1e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
   geom_rect(aes(ymax = 4.6e+5, ymin = 4.45e+5, xmin = 2.3e+5, xmax = 2.45e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
-  annotate("text", x=.4e+5, y=2.7e+5, label= "D", fontface =2, size = 8) +
-  annotate("text", x=.5e+5, y=3.45e+5, label= "C", fontface =2, size = 8) +
-  annotate("text", x=1.75e+5, y=4.45e+5, label= "B", fontface =2, size = 8) +
-  annotate("text", x=2.2e+5, y=4.6e+5, label= "A", fontface =2, size = 8) +
+  annotate("text", x=.4e+5, y=2.7e+5, label= "d", fontface =2, size = 8) +
+  annotate("text", x=.5e+5, y=3.45e+5, label= "c", fontface =2, size = 8) +
+  annotate("text", x=1.75e+5, y=4.45e+5, label= "b", fontface =2, size = 8) +
+  annotate("text", x=2.2e+5, y=4.6e+5, label= "a", fontface =2, size = 8) +
+  ggsn::scalebar(ire_shp, dist_unit = 'km', dist = 50, transform = F, 
+                 st.dist = 0.02, st.size=4, height=0.02, location = 'bottomright') +
+  ggsn::north(data = ire_shp, symbol=3) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
         panel.background = element_rect(fill = 'white', colour = 'white'), 
         axis.line = element_line(colour = "white"), legend.position="none",
         axis.ticks=element_blank(), axis.text.x=element_blank(),
         axis.text.y=element_blank()) +
-  theme_void() +
-  ggsn::scalebar(ire_shp, dist_unit = 'km', dist = 50, transform = F, 
-                 st.dist = 0.02, st.size=4, height=0.02, location = 'bottomright') +
-  ggsn::north(data = ire_shp, symbol=3)
-
+  theme_void()
+  
 ire
 
 ###MULLET
@@ -61,7 +63,7 @@ mul <- p +
              aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
   ggsn::scalebar(mul_shp, dist_unit = 'km', dist = 2, transform = F, 
                  st.dist = 0.04, st.size=3, height=0.02, location = 'bottomright') +
-  theme_void() +
+  theme_void() + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
         panel.background = element_rect(fill = 'white', colour = 'white'), 
         axis.line = element_line(colour = "white"), legend.position="none",
@@ -84,7 +86,7 @@ gal <- p +
              aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
   ggsn::scalebar(gal_shp, dist_unit = 'km', dist = 1, transform = F, 
                  st.dist = 0.04, st.size=3, height=0.02, location = 'bottomright') +
-  theme_void() +
+  theme_void() + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
         panel.background = element_rect(fill = 'white', colour = 'white'), 
         axis.line = element_line(colour = "white"), legend.position="none",
@@ -108,7 +110,7 @@ wdo <- p +
              aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
   ggsn::scalebar(wdo_shp, dist_unit = 'km', dist = 2, transform = F,
                  st.dist = 0.05, st.size=3, height=0.03, location = 'bottomright') +
-  theme_void() +
+  theme_void() + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
         panel.background = element_rect(fill = 'white', colour = 'white'), 
         axis.line = element_line(colour = "white"), legend.position="none",
@@ -133,7 +135,7 @@ edo <- p +
              aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
   ggsn::scalebar(edo_shp, dist_unit = 'km', dist = 1, transform = F,
                  st.dist = 0.04, st.size=3, height=0.02, location = 'bottomright') +
-  theme_void() +
+  theme_void() + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
         panel.background = element_rect(fill = 'white', colour = 'white'), 
         axis.line = element_line(colour = "white"), legend.position="none",
@@ -148,7 +150,7 @@ mp = ggarrange(ggarrange(edo,
                          mul,
                          gal,
                          ncol = 2, nrow = 2,
-                         labels = c('A','B','C','D'),
+                         labels = c('a','b','c','d'),
                          font.label = list(size = 20)),
                ire,
                ncol = 2)

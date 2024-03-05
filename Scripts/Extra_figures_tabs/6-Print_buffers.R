@@ -24,13 +24,13 @@ lc = shp %>%
       LEVEL_2_VA == 'Scrub' ~ 'MARGIN',
     TRUE~'BACKGROUND')) %>%
   left_join(.,p, by = c('cluster','corncrake_1','corncrake_2')) %>%
-  arrange(enn_mn) %>%
-  group_by(enn_mn) %>%
+  arrange(grass) %>%
+  group_by(grass, corncrake_2, corncrake_1) %>%
   mutate(group_id = cur_group_id())
 
 #PRINT ALL 77 BUFFERS
 #SELECT DESTINATION DIRECTORY
-setwd('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Graphs/buffers')
+setwd('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Graphs/buffers/grass')
 
 #LOOP THROUGH EACH BUFFER
 for (i in unique(lc$group_id)) {
@@ -52,7 +52,7 @@ for (i in unique(lc$group_id)) {
                                  'MARGIN'='#FAAB36',
                                  'SNG'='#186356'),
                       name = '') +
-    ggtitle(round((-1*rc$enn_mn)+1,8)) +
+    ggtitle(round(rc$grass, 4)) +
     theme_void() +
     theme(plot.title = element_text(hjust = 0.5, size = 20),
           legend.position = 'left'))
