@@ -14,7 +14,8 @@ a1 = ggplot(bacfdf1, aes(x=lag, y=acf)) +
                      limits = c(-0.4,1),
                      breaks = c(-0.4,-0.2,0,0.2,0.4,0.6,0.8,1)) +
   xlab('LAG') +
-  theme_pubclean()
+  theme_pubclean() +
+  facet_wrap(~'Intra-season')
 
 print(a1)
 
@@ -34,15 +35,15 @@ a2 = ggplot(bacfdf2, aes(x=lag, y=acf)) +
                      limits = c(-0.4,1),
                      breaks = c(-0.4,-0.2,0,0.2,0.4,0.6,0.8,1)) +
   xlab('LAG') +
-  theme_pubclean()
+  theme_pubclean() +
+  facet_wrap(~'Between-year')
 
 print(a2)
 
 ggsave('acf.jpg',
        ggarrange(a1,a2,
-                 nrow=1,
-                 labels = c('A','B')),
-       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/graphs',
+                 nrow=1),
+       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Graphs',
        width = 200, height = 100, units = "mm",
        dpi = 600)
 

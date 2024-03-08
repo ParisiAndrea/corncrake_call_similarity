@@ -52,18 +52,18 @@ g3 = ggplot(data.frame(amp = wav3@left,
   geom_line(aes(time, amp), color = '#186356') +
   scale_x_continuous(name = 'Time (s)') +
   scale_y_continuous('Amplitude (kU)') +
-  geom_segment(aes(x = 0.002, y=0, xend = 0.002, yend = 34000), linewidth = 1, linetype = 2) +
-  geom_segment(aes(x = 0.0078, y=0, xend = 0.0078, yend = 34000), linewidth = 1, linetype = 2) +
-  geom_segment(aes(x = 0.0173, y=0, xend = 0.0173, yend = 34000), linewidth = 1, linetype = 2) +
-  geom_segment(aes(x = 0.028, y=0, xend = 0.028, yend = 34000), linewidth = 1, linetype = 2) +
-  geom_segment(aes(x = 0.0351, y=0, xend = 0.0351, yend = 34000), linewidth = 1, linetype = 2) +
-  geom_segment(aes(x=0.002, y=34000, xend=0.0078, yend =34000), size = 1, arrow = arrow(length = unit(0.3, "cm"))) +
-  geom_segment(aes(x=0.008, y=34000, xend=0.0173, yend =34000), size = 1, arrow = arrow(length = unit(0.3, "cm"))) +
-  geom_segment(aes(x=0.0175, y=34000, xend=0.028, yend =34000), size = 1, arrow = arrow(length = unit(0.3, "cm"))) +
-  geom_segment(aes(x=0.0282, y=34000, xend=0.0351, yend =34000), size = 1, arrow = arrow(length = unit(0.3, "cm"))) +
-  geom_segment(aes(x=0.0353, y=34000, xend=0.040, yend =34000), size = 1) +
-  geom_segment(aes(x=0.04, y=34000, xend=0.043, yend =34000), size = 1, linetype = 2) +
-  geom_segment(aes(x=0.043, y=34000, xend=0.044, yend =34000), size =1, arrow = arrow(length = unit(0.3, "cm"))) +
+  geom_segment(aes(x = 0.002, y=0, xend = 0.002, yend = 34000), lwd = 1, linetype = 2) +
+  geom_segment(aes(x = 0.0078, y=0, xend = 0.0078, yend = 34000), lwd = 1, linetype = 2) +
+  geom_segment(aes(x = 0.0173, y=0, xend = 0.0173, yend = 34000), lwd = 1, linetype = 2) +
+  geom_segment(aes(x = 0.028, y=0, xend = 0.028, yend = 34000), lwd = 1, linetype = 2) +
+  geom_segment(aes(x = 0.0351, y=0, xend = 0.0351, yend = 34000), lwd = 1, linetype = 2) +
+  geom_segment(aes(x=0.002, y=34000, xend=0.0078, yend =34000), lwd = 1, arrow = arrow(length = unit(0.3, "cm"))) +
+  geom_segment(aes(x=0.008, y=34000, xend=0.0173, yend =34000), lwd = 1, arrow = arrow(length = unit(0.3, "cm"))) +
+  geom_segment(aes(x=0.0175, y=34000, xend=0.028, yend =34000), lwd = 1, arrow = arrow(length = unit(0.3, "cm"))) +
+  geom_segment(aes(x=0.0282, y=34000, xend=0.0351, yend =34000), lwd = 1, arrow = arrow(length = unit(0.3, "cm"))) +
+  geom_segment(aes(x=0.0353, y=34000, xend=0.040, yend =34000), lwd = 1) +
+  geom_segment(aes(x=0.04, y=34000, xend=0.043, yend =34000), lwd = 1, linetype = 2) +
+  geom_segment(aes(x=0.043, y=34000, xend=0.044, yend =34000), lwd =1, arrow = arrow(length = unit(0.3, "cm"))) +
   annotate(geom = 'label', x=0.005, y = 31000, label = 'PPD 1', label.size = NA) +
   annotate(geom = 'label', x=0.013, y = 31000, label = 'PPD 2', label.size = NA) +
   annotate(geom = 'label', x=0.0225, y = 31000, label = 'PPD 3', label.size = NA) +
@@ -80,17 +80,17 @@ pp = ggarrange(
             nrow = 1,
             ncol = 2,
             align = 'hv',
-            labels = c('A','B')),
+            labels = c('a','b')),
   g3,
   nrow = 2,
-  labels = c('','C'))
+  labels = c('','c'))
 
 print(pp)
 
 ###SAVE
 ggsave(filename = 'wave.jpg',  #filename = 'wave.svg'
-       g2,
-       path = getwd(),
+       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Graphs',
+       pp,
        width = 300, height = 180, units = "mm",
        dpi = 600)
 

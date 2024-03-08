@@ -62,19 +62,20 @@ gp = ggarrange(ggarrange(ge,
                          align = 'hv',
                          nrow = 1,
                          ncol = 3,
-                         labels = c('A','B','C')),
+                         labels = c('a','b','c')),
                pe,
                nrow = 2,
                ncol = 1,
-               labels = c('','D'))
+               labels = c('','d'))
 
 print(gp)
 
 #SAVE
 ggsave(filename = 'estimates.jpg',
        gp,
-       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_paper/graphs',
+       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Graphs',
        width = 300, height = 180, units = "mm",
        dpi = 600)
 
 #END
+

@@ -5,11 +5,8 @@ sapply(c('data.table', 'dplyr', 'tidyr','ggplot2',
        require, 
        character.only=T)
 
-set
-
 p = ggplot() + coord_fixed() +
   xlab("") + ylab("")
-
 
 ###CORNCRAKE LOCATIONS
 recs = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/corncrake_locs.shp')
@@ -60,7 +57,7 @@ mul <- p +
   geom_polygon(data=mul_shp, aes(x=long, y=lat, group=group), 
                colour='grey40', fill="white") +
   geom_point(data=recs[population == 'mullet'], 
-             aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
+             aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=3, position = position_jitter()) +
   ggsn::scalebar(mul_shp, dist_unit = 'km', dist = 2, transform = F, 
                  st.dist = 0.04, st.size=3, height=0.02, location = 'bottomright') +
   theme_void() + 
@@ -83,7 +80,7 @@ gal <- p +
   geom_polygon(data=gal_shp, aes(x=long, y=lat, group=group), 
                colour='grey40', fill="white") +
   geom_point(data=recs[population == 'galway'], 
-             aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
+             aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=3, position = position_jitter()) +
   ggsn::scalebar(gal_shp, dist_unit = 'km', dist = 1, transform = F, 
                  st.dist = 0.04, st.size=3, height=0.02, location = 'bottomright') +
   theme_void() + 
@@ -107,7 +104,7 @@ wdo <- p +
   geom_polygon(data=wdo_shp, aes(x=long, y=lat, group=group), 
                colour='grey40', fill="white") +
   geom_point(data=recs[population == 'w_donegal'], 
-             aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
+             aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=3, position = position_jitter()) +
   ggsn::scalebar(wdo_shp, dist_unit = 'km', dist = 2, transform = F,
                  st.dist = 0.05, st.size=3, height=0.03, location = 'bottomright') +
   theme_void() + 
@@ -132,7 +129,7 @@ edo <- p +
   geom_polygon(data=edo_shp, aes(x=long, y=lat, group=group), 
                colour='grey40', fill="white") +
   geom_point(data=recs[population == 'e_donegal'], 
-             aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=4, position = position_jitter()) +
+             aes(x=long, y=lat), fill = '#FAAB36', colour="black", pch=21, size=3, position = position_jitter()) +
   ggsn::scalebar(edo_shp, dist_unit = 'km', dist = 1, transform = F,
                  st.dist = 0.04, st.size=3, height=0.02, location = 'bottomright') +
   theme_void() + 
