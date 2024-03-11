@@ -1,0 +1,240 @@
+,year,file,lon,lat,date,time,site,pop,weather,wind,distance,temperature,notes
+,2018,01-C45-18-01,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,02-C45-18-02,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,03-C22-18-01,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,04-C45-18-03,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,05-C03-18-03,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,06-C03-18-01,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,07-C03-18-05,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,08-C03-18-04,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,10-C14-18-02,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,11-C45-18-05,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,12-C45-18-06,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,14-C03-18-01,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,15-C14-18-02,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,16-C14-18-03,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,17-C14-18-01,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,18-C45-18-03,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,19-C45-18-03,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,20-C14-18-02,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,21-C14-18-03,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,23-C14-18-01,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,24-C24-18-02,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,26-C03-18-01,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,27-C03-18-05,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,28-C03-18-06,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,29-C03-18-07,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,30-C03-18-02,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,31-C03-18-06,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,32-C03-18-07,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,33-C03-18-07,,,,,,west_donegal,,,,,No info provided. Only quadrat
+,2018,34-C24-18-01,,,,,,east_donegal,,,,,No info provided. Only quadrat
+,2018,35-C24-18-03,,,,,,east_donegal,,,,,No info provided. Only quadrat
+1,2021,01-C45-21-01,-7.364465,55.37577,2021-04-13,22:48,Ballyhillin,east_donegal,clear,1,7,4,Weather: Light northerly wind. 4 degrees Celsius. Clear skies with light breeze. Background sound: the sea and breeze. Also water running in a small ditch next to the road. Recording distance : 5- 10 metres approx. 
+2,2021,02-C03-21-02,-7.85819,55.205205,2021-04-19,22:47,Downings,west_donegal,light rain,2,25,8,"Weather:  Northerly wind. 8 degrees Celsius. Some light rain. Background sound: the sea, wind and rain. Distant urban noise of Downings and some livestock. Also echo of Corncrake call off of surrounding houses. Recording distance : 20-30 metres approx. "
+3,2021,03-C03-21-02,-7.85819,55.205205,2021-04-19,22:36,Downings,west_donegal,light rain,2,25,8,"Weather:  Northerly wind. 8 degrees Celsius. Some light rain. Background sound: the sea, wind and rain. Distant urban noise of Downings and some livestock. Also echo of Corncrake call off of surrounding houses. Recording distance : 20-30 metres approx. This is an alternative but clearer,  shorter sound file to that in file no:2 "
+4,2021,04-C45-21-02,-7.345933,55.352439,2021-04-22,23:30,Ardmalin,east_donegal,clear,1,7,9,Weather:  Northerly breeze. 9 degrees Celsius. Clear skies. Background sound: the sea and wind. Corncrake accompanied by reeling of Grasshopper warbler. Distant traffic noise of and some livestock. Also echo of Corncrake call off of surrounding houses. Recording distance : 5-10 metres approx. 
+5,2021,05-C45-21-03,-7.345933,55.352439,2021-04-25,23:58,Ardmalin,east_donegal,clear,2,25,9,"Weather:  Northerly wind. 9 degrees Celsius. Clear skies with light breeze. Background sound: the sea, wind. Also Culoort corncrake calling in the distance. Recording distance : 20-30 metres approx. "
+6,2021,06-C45-21-06,-7.347158,55.350801,2021-04-26,00:30,Culoort,east_donegal,clear,2,25,9,"Weather:  Northerly wind. 9 degrees Celsius. Clear skies with light breeze. Background sound: the sea, wind. Also C45/21/03 calling in the distance. Recording distance : 20-30 metres approx. "
+7,2021,07-C45-21-05,-7.345452,55.364367,2021-04-26,01:18,Ardmalin,east_donegal,clear,1,15,9,"Weather:  Northerly breeze. 9 degrees Celsius. Clear skies with light breeze. Background sound: the sea, Jackdaws and Grasshopper warbler calling. Recording distance : 10-20 metres approx. "
+8,2021,08-C45-21-04,-7.365333,55.376708,2021-04-26,01:57,Ballyhillin,east_donegal,clear,2,5,9,"Weather:  Northerly wind. 9 degrees Celsius. Clear skies with light breeze. Background sound: the sea, wind. Also C45/21/01 calling in the distance but mixed in with echo off of nearby cottages. Recording distance : 5 metres approx. "
+9,2021,09-C45-21-07,-7.336123,55.365763,2021-04-30,01:14,Ardmalin,east_donegal,clear,2,15,7,"Weather:  Northerly wind. 7 degrees Celsius. Clear skies with light breeze. Background sound: the sea, wind. Also sheep calling. Recording distance : 15 metres approx. "
+10,2021,10-C03-21-01,-7.907992,55.169981,2021-05-05,22:43,Fraugher,west_donegal,clear,2,8,2,"Weather:  Northerly wind. 2 degrees Celsius. Clear skies with light breeze. Occasional wintery shower. Background sound: the sea, wind and two echoes bouncing off of nearby houses. Recording distance : 8 metres approx. Calling close to an old wooden  boat on a trailer. "
+11,2021,11-C03-21-08,-7.855432,55.203315,2021-05-06,23:54,Downings,west_donegal,clear,2,8,8,"Weather:  Northerly wind. 8 degrees Celsius. Clear skies blustery wind. Background sound: the sea, wind. Also the sound of horses and other livestock. Also echo of call off of  nearby houses. Recording distance : 8 metres approx. "
+12,2021,12-CottageRowe-Unconfirmed,-7.973796,55.181728,2021-05-10,23:28,Dunfanaghy,west_donegal,light rain,2,28,11,Weather:  SW wind. 11 degrees Celsius.  SW Gentle breeze. Background sound: Urban sounds of Dunfanaghy inc. traffic. Also echo of call off of nearby houses. Recording distance : 25-30 metres approx. 
+13,2021,13-C03-21-03,-7.975125,55.191377,2021-05-11,00:01,Dunfanaghy,west_donegal,light rain,1,7,11,"Weather: Light wind. Background sound: the sea, nearby stream. 11 degrees Celsius.  SW Gentle breeze. Also echo of call off of nearby houses. : Urban sounds of Dunfanaghy inc. traffic. Recording distance : 5-10 metres approx. "
+14,2021,14-C45-21-10,-7.358623,55.377967,2021-05-13,23:15,Ballyhillin,east_donegal,light rain,1,5,12,"Weather: Light wind.  Background sound: the sea, nearby stream. 12 degrees Celsius. Light  breeze. Recording distance: 5 metres approx. "
+15,2021,15-C45-21-09,-7.36619,55.377414,2021-05-13,23:31,Ballyhillin,east_donegal,light rain,1,7,12,"Weather:  Background sound: the sea, wind, sheep. 12 degrees Celsius. Light  breeze. Recording distance: 5-10 metres approx. "
+16,2021,16-C03-21-04,-7.9769,55.190965,2021-05-16,00:12,Dunfanaghy,west_donegal,light rain,1,13,12,"Weather: Light wind.  Background sound: Urban sound of Dunfanaghy, music from party, traffic, animals and water birds. C03-21-03 calling in background. 12 degrees Celsius. Light breeze. Recording distance: 10- 15 metres approx. "
+17,2021,17-C03-21-02,-7.858389,55.206715,2021-05-16,01:52,Downings,west_donegal,light rain,0,7,13,Weather: Calm.  Background sound: Wind and the sea.Vibration and echo off of metal farm buildings and nearby houses.13 degrees Celsius. Light breeze. Recording distance: 5- 10 metres approx. 
+18,2021,18-C14-21-01,-7.798023,55.232998,2021-05-26,23:20,Gortnalughoge,west_donegal,partly overcast,1,13,14,Weather: Light wind.  Background sound: Wind and the sea.14 degrees Celsius. Light breeze. Recording distance: 10- 15 metres approx. 
+19,2021,19-C03-21-06,-7.853479,55.196125,2021-05-27,00:04,Downings,west_donegal,partly overcast,1,4,12,Weather:  Light wind. Background sound: the sea and Sedge Warbler. 12 degrees Celsius. Calm. Recording distance: 3- 5 metres approx.  
+20,2021,20-C03-21-08,-7.855955,55.202103,2021-05-27,00:32,Downings,west_donegal,partly overcast,0,13,12,"Weather: Calm. Background sound: the sea, Grasshopper Warbler and Sedge Warbler. C03-21-06 can also be heard in background. 12 degrees Celsius. Calm. Recording distance: 12-15 metres approx."
+21,2021,21-C03-21-05,-7.913284,55.168988,2021-06-01,23:29,Marble Hill,west_donegal,light rain,1,7,14,"Weather: Light wind.  Background sound: the sea, voice echoe and a distant C03-21-01 calling. 14 degrees Celsius. Calm. Recording distance: 5- 8 metres approx. "
+22,2021,22-C04-21-01,-7.854656,55.209289,2021-06-02,00:52,Downings,west_donegal,overcast,1,7,13,Weather: Light wind.  Background sound: the wind and sea. 13 degrees Celsius. Calm. Recording distance: 5-10 metres approx. 
+23,2021,24-C44-21-01,-7.321873,55.291359,2021-06-09,00:07,Donaghmore,east_donegal,overcast,2,10,14,"Weather: V.windy. Background sound: the wind, occasional vehicle, sheep, cows and aircraft at end. 14 degrees Celsius. Very windy. Recording distance: 10 metres approx. "
+24,2021,25-C44-21-01,-7.321873,55.291359,2021-06-09,00:20,Donaghmore,east_donegal,overcast,2,10,14,"Weather: V. windy. Background sound: the wind, occasional vehicle, curlew and other shore birds and sheep. 14 degrees Celsius. Windy. Recording distance: 10 metres approx. "
+25,2021,26-C03-21-07,-7.982821,55.188153,2021-06-15,01:50,Dunfanaghy,west_donegal,partly overcast,1,10,13,Weather: Light wind.  Background sound: Urban sounds of Dunfanaghy and cars. Cows and other livestock. 13 degrees Celsius. Windy. Recording distance: 10 metres approx. 
+26,2021,27-C45-21-11,-7.343718,55.354745,2021-06-23,01:03,Ardmalin,east_donegal,overcast,2,7,13,Weather: V. windy.  Background sound: Wind and rough sea. Cows (10) leaning over fence. C45-21-03 calling in background. 13 degrees Celsius. Windy with drizzle. Recording distance: 5- 10 metres approx. 
+27,2021,28-C45-21-03,-7.344102,55.35445,2021-06-23,01:30,Ardmalin,east_donegal,light rain,2,4,13,Weather: V. windy.  Background sound: Wind and rough sea. C45-21-11 calling in background. 13 degrees Celsius. Windy with drizzle. Recording distance: 3-5 metres approx. 
+28,2021,29-C45-21-02,-7.344433,55.354452,2021-06-23,02:12,Ardmalin,east_donegal,light rain,2,10,13,Weather: V. windy.  Background sound: Wind and rough sea. C45-21-03 or11 calling in background. 13 degrees Celsius. Windy with drizzle. Recording distance: 10 metres approx. 
+29,2021,30-C45-21-12,-7.339072,55.307993,2021-06-26,23:45,Lagacurry,east_donegal,partly overcast,0,8,16,Weather: Calm and dry.  Background sound: The sea and some voice echo. 16 degrees Celsius.  Recording distance: 8 metres approx.  
+30,2021,31-C34-21-01,-7.38357,55.281453,2021-06-27,00:22,Ballyliffin,east_donegal,partly overcast,0,15,16,Weather: Calm and dry.  Background sound: Road traffic from road next to field. Music from nearby party and dog barking. Also voice echoe and electrical hum from a believed electrical sub-station. 16 degrees Celsius. Recording distance: 10-20 metres approx.
+31,2021,32-C45-21-11,-7.340436,55.35868,2021-06-29,05:31,Ardmalin,east_donegal,partly overcast,2,28,14,"Calling bird after being disturbed by livestock. Weather: windy and dry.  Background sound: Wind, insects, Sedge warbler, Rooks, Meadow Pipit, Jackdaws, Dog barking and sheep. Also the sound of cars and a house being constructed 14 degrees Celsius. Light wind but dry. Recording distance: 25-30 metres approx. "
+32,2021,34-C03-21-04,-7.977229,55.192195,2021-07-07,23:41,Dunfanaghy,west_donegal,rain,1,10,15,"Weather: Light wind and showers.  Background sound: Urban noise of Dunfanaghy and nearby houses with traffic and human voices. Estuary birds, livestock and C03-21-07 calling in the background at end of recording. Also voice echo off of nearby houses. 15 degrees Celsius. Recording distance: 10 metres approx. "
+33,2021,35-C03-21-01,-7.910459,55.168635,2021-07-08,01:07,Marble Hill,west_donegal,light rain,1,7,14,Weather: Light wind and showers.  Background sound: Road traffic from road next to field. Also voice echo off of nearby houses. 14 degrees Celsius. Recording distance: 7 metres approx. 
+34,2021,36-C45-21-11,-7.341609,55.356441,2021-07-21,23:08,Ardmalin,east_donegal,partly overcast,1,13,17,Weather: Light wind and dry.  Background sound: Road traffic and various urban sounds. 17 degrees Celsius. Recording distance: 10- 15 metres approx. 
+35,2021,37-C45-21-06_02,-7.342661,55.353859,2021-07-21,23:23,Ardmalin,east_donegal,partly overcast,1,6,17,SECOND LOCATION? Weather: Light wind and dry.  Background sound: Road traffic and C45-21-03 calling nearby. Also voice echo off of nearby houses. 17 degrees Celsius. Recording distance: 6 metres approx. 
+36,2021,38-C45-21-03,-7.345143,55.352489,2021-07-22,00:11,Ardmalin,east_donegal,overcast,1,5,17,"Weather: Light wind and dry.  Background sound: Road traffic, dog bark and C45-21-11 calling nearby. 17 degrees Celsius. Recording distance: 5 metres approx."
+37,2021,39-C45-21-08,-7.345315,55.358311,2021-07-22,00:55,Ardmalin,east_donegal,overcast,1,18,17,"Weather: Light wind and dry.  Background sound: Road traffic and urban sounds, the sea. Occasional sound of insect wings (moths) close to microphone. C45-21-08 calling nearby. Also voice echo off of nearby ruin houses. 17 degrees Celsius. Recording distance: 15-20 metres approx. "
+38,2021,40-C45-21-02,-7.34672,55.35919,2021-07-22,01:18,Ardmalin,east_donegal,overcast,1,10,17,"Weather: Light wind and dry.  Background sound: Road traffic, urban noise, the sea. C45-21-08 and possibly one other  calling nearby. Also voice echo off of nearby houses. 17 degrees Celsius. Recording distance: 10 metres approx. "
+39,2020,01-C03-20-01,-7.908479,55.169882,2020-04-30,23:49,Marble Hill,west_donegal,overcast,2,15,8,Weather: Light northerly wind. 8 degrees Celsius. Some rain showers. Background sound reflects urban environment with traffic sound and Sedge warbler in song. Water dripping off trees.Recording distance : 10- 20 metres approx.
+40,2020,02-C45-20-03,-7.345569,55.352491,2020-05-20,22:34,Ardmalin,east_donegal,partly overcast,1,10,10,"Weather:  Southerly breeze. 10 degrees Celsius.  Background sound are that of Malin Head urban activity, livestock, the wind and sea. Recording distance : 10 metres approx."
+41,2020,03-C45-20-04,-7.366288,55.377207,2020-05-20,23:35,Ballyhillin,east_donegal,partly overcast,2,10,10,Weather: Strong southerly wind. 10 degrees Celsius.  Background sound are that of the wind and sea. Recording distance : 10 metres approx.
+42,2020,04-C45-20-04,-7.366288,55.377207,2020-05-20,23:46,Ballyhillin,east_donegal,partly overcast,2,10,10,Weather: Strong southerly wind. 10 degrees Celsius.  Background sound are that of the wind and sea. Recording distance : 10 metres approx.
+43,2020,5-C45-20-02,-7.349022,55.3602,2020-05-05,22:38,Ardmalin,east_donegal,partly overcast,1,20,10,Weather: Light southerly breeze. 10 degrees Celsius. Background sound reflects Malin Head urban environment with traffic sound. Also wading birds and livestock. Recording distance : 20 metres approx.
+44,2020,6-C03-20-02,-7.973828,55.181764,2020-05-08,23:45,Dunfanaghy,west_donegal,overcast,0,25,11,"Weather: No wind. 11 degrees Celsius. Background sound is cats fighting in nearby housing estate, general urban environment with traffic sound. Recording distance : 20- 30 metres approx."
+45,2020,7-C45-20-06,-7.358064,55.376428,2020-05-14,22:36,Ballyhillin,east_donegal,light rain,2,25,9,Weather: Windy. 09 degrees Celsius. Background sound is the wind and sea. C45/20/01 can be heard calling in the background. Recording distance : 25 metres approx.
+46,2020,8-C45-20-01,-7.364409,55.376299,2020-05-14,22:50,Ballyhillin,east_donegal,light rain,2,8,9,Weather: Windy. 09 degrees Celsius. Background sound is the wind and sea. There is some occasional echo of the birds voice bouncing off the walls of nearby property. Recording distance : 5-10 metres approx.
+47,2020,9-C45-20-05,-7.325112,55.357492,2020-05-14,23:47,Carnmalin,east_donegal,partly overcast,2,225,9,Weather: Windy. 09 degrees Celsius. Background sound is mainly the wind.Faint sound of Grasshopper warbler and Sedge warbler and a Fox can be heard. Recording made from the roadside and 2x cars can be heard passing. Recording distance : 200-250 metres approx.
+48,2020,10-C24-20-02,-7.668589,55.252687,2020-05-21,00:14,Shannagh Lough,west_donegal,overcast,1,35,12,"Weather: Sheltered position/ humid. 12 degrees Celsius. Background sounds are sheep, perhaps some distant traffic activity.Recording distance : 30- 40 metres approx."
+49,2020,11-C24-20-01,-7.637898,55.275743,2020-05-21,00:45,Fanad Lighthouse,west_donegal,overcast,1,10,12,Weather: Slight breeze/ humid. 12 degrees Celsius. Background sound is mainly the sea and the birds voice echoing off the sea wall nearby. Recording distance : 10 metres approx.
+50,2020,12-C03-20-03,-7.855887,55.203594,2020-05-25,02:02,Downings,west_donegal,partly overcast,2,5,12,Weather: Sheltered position. 12 degrees Celsius. Background sounds include some echo from nearby houses and wind. Recording distance : 5 metres approx.
+51,2020,13-C04-20-01,-7.851543,55.20986,2020-05-25,02:19,Downings,west_donegal,partly overcast,2,15,12,"Weather: Windy and exposed. 12 degrees Celsius. Background sound is the wind, voice echoing off nearby houses and a distant Sedge Warbler singing. Recording distance : 10- 20 metres approx."
+52,2020,14-C45-20-07,-7.343724,55.355383,2020-05-26,00:05,Ardmalin,east_donegal,partly overcast,2,25,12,Weather: Windy and exposed position. 12 degrees Celsius. Background sound is the wind and what is believed to be C45/20/03 calling in the distance. Recording distance : 20- 30 metres approx.
+53,2020,15-C45-20-03,-7.345569,55.352491,2020-05-26,00:26,Ardmalin,east_donegal,partly overcast,2,35,12,Weather: Windy and exposed position. 12 degrees Celsius. Background sound is the wind and a distant Sedge Warbler singing. Recording distance : 30- 40 metres approx.
+54,2020,16-C45-20-06,-7.358064,55.376428,2020-05-30,02:13,Ballyhillin,east_donegal,partly overcast,2,5,15,Weather: Sheltered position/ humid. 15 degrees Celsius. Background sound is the wind and seas. There are also distant human voices. Recording distance : 5 metres approx.
+55,2020,18-C24-20-03,-7.670865,55.262854,2020-06-30,01:23,Ballure,east_donegal,light rain,2,35,10,"Weather: Light breeze. 10 degrees Celsius. Background sound- Very windy conditions, the sea and clattering sounds from farm materials lying around in the background. Recording distance : 30- 40  metres approx."
+56,2020,20-C03-20-03,-7.854821,55.202802,2020-06-11,00:48,Downings,west_donegal,light rain,1,15,12,Weather: Light breeze. 12 degrees Celsius. Background sound Echo of voice off a nearby houses and Grasshopper Warbler singing. Recording distance :10- 20  metres approx.
+57,2020,21-C24-20-03,-7.670865,55.262854,2020-06-12,02:33,Ballure,east_donegal,overcast,1,25,12,"Weather: Windy. 12 degrees Celsius. Background sound: Wind noise, the sea, sea birds and some echo of voice off of nearby house and barn. Recording distance : 25  metres approx."
+58,2020,22-C24-20-01,-7.637898,55.275743,2020-06-12,03:13,Fanad Lighthouse,west_donegal,overcast,1,8,12,"Weather: Light breeze. 12 degrees Celsius. Background sound Minimal wind noise, the sea, a distant Skylark and slight echo off of the lighthouse sea wall. Recording distance : 5-10  metres approx."
+59,2020,23-C13-20-01,-7.82116,55.198903,2020-06-14,00:02,Downings,west_donegal,overcast,1,20,12,"Weather: Windy. 12 degrees Celsius. Background sound Wind noise, distant human voices and traffic. Recording distance : 20  metres approx."
+60,2020,24-C45-20-03,-7.345569,55.352491,2020-06-25,00:05,Ardmalin,east_donegal,partly overcast,0,5,13,"Weather: Calm. 13 degrees Celsius. Background sound is the sea, some very light breeze and a dog.C45/20/07 is also calling in the background. Recording distance : 5  metres approx."
+61,2020,25-C45-20-07,-7.343724,55.355383,2020-06-25,00:43,Ardmalin,east_donegal,partly overcast,0,13,13,"Weather: Calm. 13 degrees Celsius. Background sound is the sea, some very light breeze and slight echo off of a nearby building. Recording distance : 10- 15  metres approx."
+62,2020,26-C45-20-06,-7.358064,55.376428,2020-06-25,01:38,Ballyhillin,east_donegal,light rain,0,30,13,Weather: Calm. 13 degrees Celsius. Background sound is the sea. C45/20/04 is also calling in the background. Recording distance : 25-35  metres approx.
+63,2020,27-C45-20-04,-7.366288,55.377207,2020-06-25,02:05,Ballyhillin,east_donegal,light rain,0,5,13,Weather: Calm. 13 degrees Celsius. Background sound is the sea. C45/20/06 is also calling in the background. Recording distance : 5  metres approx.
+64,2020,28-C24-20-02,-7.668589,55.252687,2020-06-26,01:04,Shannagh Lough,west_donegal,rain,0,18,14,"Weather: Calm. 14 degrees Celsius. Background sound is the sea, sheep and occasional vehicle noise. Recording distance : 15-20  metres approx."
+65,2020,29-C45-20-07,-7.343724,55.355383,2020-07-07,23:53,Ardmalin,east_donegal,partly overcast,1,10,11,"Weather: Windy. 11 degrees Celsius. Background sound is the sea, the wind and traffic noise. C45/20/03 is also calling in the background. Bird calling from 2ND LOCATION in Patsy Collins field. Recording distance : 10  metres approx."
+66,2020,30-C45-20-08,-7.344039,55.357271,2020-08-08,00:10,Ardmalin,east_donegal,partly overcast,0,5,13,Weather: Calm. 13 degrees Celsius. Background sound is the sea. C45/20/07 is also calling in the background. Recording distance : 5  metres approx.
+67,2020,31-C45-20-01,-7.364409,55.376299,2020-08-08,00:27,Ballyhillin,east_donegal,partly overcast,0,5,13,"Weather: Calm. 13 degrees Celsius. Background sound is the sea, the wind. Some echo can also be heard. Recording distance : 5  metres approx."
+68,2020,32-C35-20-01,-7.371821,55.377488,2020-08-08,00:58,Ballyhillin,east_donegal,partly overcast,1,8,13,"Weather: Windy. 13 degrees Celsius. Background sound is the sea, the wind and cows. Recording distance : 8  metres approx."
+69,2020,33-C24-20-03,-7.975848,55.163967,2020-07-09,23:41,Port Lough,west_donegal,light rain,2,5,14,Weather: Windy. 14 degrees Celsius. Background sound is the sea and wind. Recording distance : 5  metres approx.
+70,2020,34-C03-20-05,-7.975848,55.163967,2020-07-17,22:34,Port Lough,west_donegal,overcast,1,23,15,This is a poor quality recording as the Corncrake was moving about and calling with short phrases over long periods of time. Difficult to predict where the bird was and when it would call. Weather: Settled. 15 degrees Celsius. Background sound: A loud urban noise with increased activity after Covid19 lockdown. Some wind noise and farm livestock sounds from mainly sheep. Recording distance : 15- 30  metres approx. 
+71,2020,35-C03-20-05,-7.975848,55.163967,2020-07-17,22:49,Port Lough,west_donegal,overcast,1,23,15,This is a poor quality recording as the Corncrake was moving about and calling with short phrases over long periods of time. Difficult to predict where the bird was and when it would call. Weather: Settled. 15 degrees Celsius. Background sound: A loud urban noise with increased activity after Covid19 lockdown. Some wind noise and farm livestock sounds from mainly sheep. Recording distance : 15- 30  metres approx.
+72,2019,1-C03-19-01,-7.97502,55.183633,2019-05-09,20:27,Dunfanaghy,west_donegal,rain,2,20,8,Weather: Blustery easterly wind -8 degrees Celsius. Some rain showers. Background sound reflects urban environment with traffic sound and some birdsong/calls. This bird would call for a short while every 4-7 minutes approx. hence the short recording.  Recording distance : 20 metres approx. 
+73,2019,2-C45-19-02,-7.322589,55.35374,2019-05-14,00:35,Carnmalin,east_donegal,clear,1,10,15,Weather: Light easterly wind -15 degrees Celsius. Clear sky. Background sound reflects small group of houses next to a main road. Recording distance : 10 metres approx. 
+74,2019,3-C45-19-01,-7.364652,55.375887,2019-05-14,23:36,Ballyhillin,east_donegal,clear,1,2,15,Weather: Light easterly wind -15 degrees Celsius. Clear sky. This bird seems unperturbed to disturbance. Recording distance : 2 metres approx. 
+75,2019,4-C03-19-01,-7.975993,55.183543,2019-05-15,19:50,Dunfanaghy,west_donegal,partly overcast,2,2,15,Weather: Strong southerly wind -15 degrees Celsius. Some cloud. Note the quiet but short scalding  like calls between main song. Calls believed to be male. These unusual calls are possible warning calls to female of potential danger? The background noises are urban sounds and other birds. Recording distance : 02 metres approx. 
+76,2019,5-C03-19-01,-7.97502,55.183633,2019-05-16,01:46,Dunfanaghy,west_donegal,partly overcast,2,15,15,Weather: Strong southerly wind -15 degrees Celsius. Some cloud. Note that this was a windy evening and the whining sound in the background is the wind passing through a Garda communications tower nearby. Recording distance : 15 metres approx. 
+77,2019,6-C03-19-02,-7.980326,55.184011,2019-05-16,02:08,Dunfanaghy,west_donegal,partly overcast,2,10,15,Weather: Strong southerly wind -15 degrees Celsius. Some cloud. Recording distance :10 metres approx. 
+78,2019,7-C24-19-02,-7.671001,55.252038,2019-05-20,02:30,Shannagh Lough,west_donegal,partly overcast,2,5,8,Weather: Strong and cool south-west wind - 8 degrees Celsius. Some cloud. Recording distance : 05 metres approx.
+79,2019,8-C24-19-01,-7.619869,55.250425,2019-05-21,23:02,Doagh Beg,east_donegal,clear,1,100,8,"Weather: Light sea breeze, cool with clear skies- 8 degrees Celsius. Recording distance: 100 metres approx. Background sound: the sea and Grasshopper warbler. "
+80,2019,10-FanadLighthouse-19,-7.63750678,55.27553506,2019-05-19,00:02,Fanad Lighthouse,west_donegal,clear,1,25,8,"Weather: Light sea breeze, cool with clear skies- 8 degrees Celsius. Recording distance: 25 metres approx. Background sound: the sea. "
+81,2019,11-C13-19-01,-7.83179,55.195927,2019-05-22,02:08,Downings,west_donegal,clear,1,10,8,"Weather: Light breeze, cool with clear skies- 8 degrees Celsius. Recording distance: 10 metres approx. Background sound: Traffic noise, Nearby shore birds and trickling water in nearby ditch. This bird was calling from a different field from where it was first heard. "
+82,2019,12-C03-19-03,-7.909735,55.169686,2019-05-22,03:00,Marble Hill,west_donegal,clear,1,20,8,"Weather: Light sea breeze, cool with clear skies- 8 degrees Celsius. Recording distance: 20 metres approx. Background sound: Echo from nearby houses, the sea, Cuckoo, SedgeWarbler and some traffic noise. "
+83,2019,13-C13-19-02,-7.834467,55.201914,2019-05-27,23:45,Downings,west_donegal,rain,2,40,10,Weather: Windy with rain showers. Cool. 10 degrees Celsius. Recording distance: 40 metres approx. Background sound: Echo from nearby caravans and continuous industrial sound. 
+84,2019,14-C03-19-03,-7.909735,55.169686,2019-05-28,03:07,Marble Hill,west_donegal,clear,2,30,10,"Weather: Windy, cool with clear skies- 10 degrees Celsius. Recording distance: 30 metres approx. Background sound: Echo from nearby houses and the sea. "
+85,2019,15-C03-19-02,-7.979824,55.183868,2019-05-31,12:55,Dunfanaghy,west_donegal,rain,1,15,14,"Weather: Light wind- 14 degrees Celsius. Recording distance: 15 metres approx. Background sound: The sea, urban sounds inc. traffic, Common gulls calling on estuary. "
+86,2019,16-C03-19-04,-7.9645,55.183792,2019-05-31,13:34,Dunfanaghy,west_donegal,rain,1,20,14,Weather: Light wind- 14 degrees Celsius. Recording distance: 20 metres approx. Background noise: There is a metallic resonance in the sound of the echo caused by the corncrake calling next to the green-keepers metal shed on the golf course. Additional urban noise and traffic.  
+87,2019,17-C24-19-02,-7.671828,55.250989,2019-06-04,00:41,Shannagh Lough,west_donegal,overcast,2,15,13,Weather: Moderate  wind- 13 degrees Celsius. Recording distance: 15 metres approx. Background noise: The sea and some wind noise. Also Grasshopper warbler and Curlew. 
+88,2019,18-C03-19-02,-7.980326,55.184011,2019-06-11,12:15,Dunfanaghy,west_donegal,partly overcast,2,35,10,Weather: Moderate wind- 10 degrees Celsius. Recording distance: 30-40 metres approx. Background noise: The sea and some wind noise. Urban sounds such as traffic etc. Some estuarine birds and echoe from nearby houses. 
+89,2019,19-C03-19-03,-7.909735,55.169686,2019-06-11,02:08,Marble Hill,west_donegal,partly overcast,2,25,10,Weather: Moderate  wind- 10 degrees Celsius. Recording distance: 25 metres approx. Background noise: The sea and some wind noise. Also Grasshopper warbler and some echoe from nearby houses. 
+90,2019,20-C30-19-01,-7.465931,54.92223,2019-06-16,01:14,Tullyowen,east_donegal,light rain,0,15,11,Weather: Calm- 11 degrees Celsius. Recording distance: 15 metres approx. Background noise: Traffic noise from R236. 
+91,2019,21-C24-19-03,-7.6527,55.267601,2019-06-18,01:43,Ballure,east_donegal,partly overcast,2,35,12,Weather: Very windy- 12 degrees Celsius. Recording distance: 35 metres approx. Background noise: Wind noise and dog barking. 
+92,2019,22-C03-19-05,-7.981738,55.188342,2019-06-20,00:24,Dunfanaghy,west_donegal,light rain,1,40,13,Weather: Slight wind with rain showers- 13 degrees Celsius. Recording distance: 40 metres approx. Background noise: Some dripping water and traffic noise. 
+93,2019,23-C45-19-01,-7.363535,55.375729,2019-06-21,00:37,Ballyhillin,east_donegal,light rain,0,10,11,Weather: Calm- 11 degrees Celsius. Recording distance: 10 metres approx. Background noise: Very windy conditions. Car heard at end of recording during fade-out. 
+94,2019,24-C24-19-02,-7.669766,55.253067,2019-06-24,00:54,Shannagh Lough,west_donegal,light rain,2,15,13,Weather: Very windy with rain showers- 13 degrees Celsius. Recording distance: 15 metres approx. Background noise: Sound of hedgerow being blown about by the wind.  
+95,2019,25-C13-19-03,-7.80146,55.174292,2019-06-29,00:15,Umlagh,east_donegal,partly overcast,1,20,21,Weather: Light wind - 21 degrees Celsius.Very warm. Recording distance: 20 metres approx. Background noise: Traffic noise from nearby road.Dog barking and other urban noise. Unidentified hum from unknown external source. 
+96,2019,26-C24-19-03,-7.656818,55.266256,2019-06-30,00:38,Ballure,east_donegal,light rain,2,30,15,Weather: Very windy conditions - 15 degrees. Believed a 2nd location for this bird having been disturbed by mowing activities. Recording distance: 30 metres approx. Background noise: Wind noise and noise from nearby vegetation in hedgerow. Also echo off of nearby buildings. 
+97,2019,27-C45-19-03,-7.36711,55.377095,2019-07-01,23:50,Ballyhillin,east_donegal,light rain,2,15,13,"Weather: Very windy conditions. Sudden storm-like conditions - 13 degrees celsius. Very short recording. Bird was not calling too regularly before the storm, possibly due to a cool wind chill factor. Recording was made by setting up the microphone inside the car, close to an open window to avoid impact on sound by wind. Recording distance: 15 metres approx. Background noise: Wind noise and noise from nearby vegetation. "
+98,2019,28-C03-19-05,-7.9829,55.188037,2019-07-08,00:33,Dunfanaghy,west_donegal,partly overcast,1,50,10,"Weather: Light wind. 10 degrees celsius. Recording distance: 50 metres approx. Background noise: Urban noise inc. traffic, estuary birds calling and some wind noise "
+99,2019,29-C45-19-04,-7.345864,55.35278,2019-07-16,22:59,Ardmalin,east_donegal,rain,2,18,15,"Weather: Strong wind and rain. 15 degrees celsius. Recording distance: 15-20 metres approx. Background noise: The sea, wind and rain. Some farm livestock. "
+100,2019,30-C24-19-04,-7.671575,55.254923,2019-07-26,23:47,Shannagh Lough,west_donegal,overcast,1,10,19,Weather: Light wind and dry. 19 degrees celsius. Recording distance: 10 metres approx. Background noise: The wind and traffic noise. Some conversation from people in nearby houses and dogs barking. C24/19/02 can be heard calling in the distant background. 
+101,2019,31-C24-19-02,-7.671575,55.254923,2019-07-26,23:59,Shannagh Lough,west_donegal,overcast,1,12,19,Weather: Light wind and dry. 19 degrees celsius. Recording distance: 175 metres approx. This recording is attempting to capture C24/19/02 who is calling in the distance. Was unable to get closer due to the distance and difficult terrain to be negotiated in the dark. Background noise: The wind passing through a wire fence and traffic noise. Some conversation from people in nearby houses and dogs barking. C24/19/04 can be heard calling about 12metres away.  
+102,2019,32-C45-19-04,-7.34579,55.353453,2019-08-08,22:54,Ardmalin,east_donegal,clear,2,35,13,Weather: Strong wind and dry. 13 degrees celsius. Recording distance: 35 metres approx. Was unable to get closer due not having a suitable windshield so had to make this recording from behind an embankment to reduce wind-noise. Background noise: Gusty wind with distant traffic noise. Some fluttering in the sound quality caused by wind hitting the microphone head on. 
+103,2019,33-C45-19-05,-7.347878,55.35978,2019-08-08,23:50,Ardmalin,east_donegal,clear,2,240,13,Weather: Strong wind and dry. 13 degrees celsius. Recording distance: 240 metres approx. Background noise:  Gusty wind passing through vegetation and distant traffic noise. Some fluttering in the sound quality caused by wind hitting the microphone head on. Was unable to get closer due to a wire fence with no gate. Terrain was also dangerous in the dark. Two recordings made in an attempt to provide best quality. 
+104,2022,1-ZOOM0001,55.156601,-8.087614,2022-04-20,21:46,Falcarragh,west_donegal,clear,1,5,11,
+105,2022,1-ZOOM0006,55.156083,-8.088598,2022-04-29,22:07,Falcarragh,west_donegal,clear,0,5,11,Triggered by the car approaching?
+106,2022,1-ZOOM0007,55.156083,-8.088598,2022-04-29,22:19,Falcarragh,west_donegal,clear,0,5,11,
+107,2022,1-ZOOM0008,55.156083,-8.088598,2022-04-29,22:23,Falcarragh,west_donegal,clear,0,5,11,
+108,2022,1-ZOOM0009,55.156083,-8.088598,2022-04-29,22:30,Falcarragh,west_donegal,clear,0,20,11,
+109,2022,1-ZOOM0010,53.614958,-10.199653,2022-04-30,23:03,Inishbofin (Galway),galway,overcast,1,15,11,
+110,2022,1-ZOOM0011,53.614958,-10.199653,2022-04-30,23:05,Inishbofin (Galway),galway,overcast,1,5,11,
+111,2022,1-ZOOM0012,53.624092,-10.190134,2022-04-30,23:49,Inishbofin (Galway),galway,overcast,1,10,11,
+112,2022,1-ZOOM0013,53.624092,-10.190134,2022-05-01,00:17,Inishbofin (Galway),galway,overcast,1,10,11,
+113,2022,1-ZOOM0014,53.613856,-10.213183,2022-05-01,09:51,Inishbofin (Galway),galway,overcast,1,10,11,
+114,2022,2-ZOOM0001,54.210495,-10.033842,2022-05-04,01:02,Binghamstown,mullet,overcast,1,20,10,
+115,2022,2-ZOOM0002,54.252353,-9.992159,2022-05-04,02:30,Mushroom factory,mullet,light rain,2,10,10,
+116,2022,2-ZOOM0003,54.251879,-9.99116,2022-05-04,02:40,Mushroom factory,mullet,rain,2,20,9,
+117,2022,2-ZOOM0004,54.251879,-9.99116,2022-05-04,02:45,Mushroom factory,mullet,rain,2,10,9,Car in the background
+118,2022,2-ZOOM0005,54.210495,-10.033842,2022-05-04,03:17,Binghamstown,mullet,overcast,1,10,11,
+119,2022,2-ZOOM0006,54.254059,-9.993205,2022-05-04,10:46,Mushroom factory,mullet,overcast,1,10,12,Very close to each other birds. Too brief for analysis?
+120,2022,2-ZOOM0007,54.254062,-9.993318,2022-05-04,11:00,Mushroom factory,mullet,overcast,2,20,12,Very close to each other birds
+121,2022,2-ZOOM0008,54.254062,-9.993318,2022-05-04,11:04,Mushroom factory,mullet,overcast,1,20,12,
+122,2022,2-ZOOM0009,54.254059,-9.993205,2022-05-04,11:07,Mushroom factory,mullet,overcast,1,10,12,
+123,2022,2-ZOOM0010,54.254059,-9.993205,2022-05-04,11:08,Mushroom factory,mullet,overcast,1,10,12,
+124,2022,3-ZOOM0001,54.244473,-10.068278,2022-05-12,23:55,Termoncarragh Graveyard,mullet,overcast,2,15,11,Cold night
+125,2022,3-ZOOM0002,54.244473,-10.068278,2022-05-13,00:03,Termoncarragh Graveyard,mullet,overcast,2,5,11,Cold night
+126,2022,4-bird1,55.263768,-8.230748,2022-05-17,23:28,Tory Island,east_donegal,overcast,2,16,7,Very close to multiple structures. Lots of Echos. Strong winds
+127,2022,4-bird2,55.264597,-8.230007,2022-05-17,23:32,Tory Island,east_donegal,overcast,2,15,7,
+128,2022,5-ZOOM0002,54.251735,-9.991375,2022-05-20,22:55,Mushroom factory,mullet,overcast,1,10,11,Parabolic mic not properly plug
+129,2022,5-ZOOM0003,54.251735,-9.991375,2022-05-20,22:58,Mushroom factory,mullet,overcast,1,10,11,Parabolic mic not properly plug
+130,2022,5-ZOOM0004,54.251936,-9.991967,2022-05-20,23:04,Mushroom factory,mullet,overcast,1,5,11,Parabolic mic not properly plug
+131,2022,5-ZOOM0005,54.251936,-9.991967,2022-05-20,23:07,Mushroom factory,mullet,overcast,1,5,11,Parabolic mic not properly plug
+132,2022,5-ZOOM0006,54.252646,-9.992186,2022-05-20,23:14,Mushroom factory,mullet,overcast,1,5,11,Parabolic mic not properly plug
+133,2022,5-ZOOM0007,54.2114,-10.0345379,2022-05-21,00:40,Emlybeg,mullet,overcast,1,10,12,Parabolic mic not properly plug
+134,2022,5-ZOOM0008,54.207362,-10.0623792,2022-05-21,01:35,Cross Lough,mullet,overcast,1,10,13,Parabolic mic not properly plug
+135,2022,5-ZOOM0009,54.207362,-10.0623792,2022-05-21,01:37,Cross Lough,mullet,overcast,1,5,13,
+136,2022,5-ZOOM0010,54.207362,-10.0623792,2022-05-21,01:39,Cross Lough,mullet,overcast,1,5,13,
+137,2022,6-ZOOM0001,55.155172,-8.089716,2022-05-25,20:10,"Drumnatinny, Falcarragh",west_donegal,overcast,2,10,12,
+138,2022,6-ZOOM0002,55.155172,-8.089716,2022-05-25,23:51,"Drumnatinny, Falcarragh",west_donegal,light rain,1,10,9,
+139,2022,6-ZOOM0003,55.155172,-8.089716,2022-05-25,23:53,"Drumnatinny, Falcarragh",west_donegal,light rain,1,5,9,
+140,2022,6-ZOOM0004,55.155854,-8.088959,2022-05-25,23:59,"Drumnatinny, Falcarragh",west_donegal,light rain,1,10,10,
+141,2022,6-ZOOM0005,55.156247,-8.089099,2022-05-26,00:04,"Drumnatinny, Falcarragh",west_donegal,rain,1,50,10,
+142,2022,7-ZOOM0001,55.354507,-7.347236,2022-06-02,23:12,GAA Gortnamalin,east_donegal,overcast,1,40,13,
+143,2022,7-ZOOM0002,55.354507,-7.347236,2022-06-02,23:17,GAA Gortnamalin,east_donegal,overcast,1,20,13,
+144,2022,7-ZOOM0003,55.354507,-7.347236,2022-06-02,23:21,GAA Gortnamalin,east_donegal,overcast,1,10,13,
+145,2022,7-ZOOM0004,55.352738,-7.345347,2022-06-02,23:29,GAA Gortnamalin,east_donegal,overcast,1,60,13,
+146,2022,7-ZOOM0005,55.352738,-7.345347,2022-06-02,23:33,GAA Gortnamalin,east_donegal,overcast,1,15,13,
+147,2022,7-ZOOM0006,55.297853,-7.214283,2022-06-03,00:19,Templemoyle,east_donegal,overcast,1,10,12,
+148,2022,7-ZOOM0007,55.297853,-7.214283,2022-06-03,00:22,Templemoyle,east_donegal,overcast,1,5,12,
+149,2022,8-ZOOM0001,54.2486754,-10.0620875,2022-06-08,23:33,Termoncarragh,mullet,clear,1,50,14,
+150,2022,8-ZOOM0002,54.2486754,-10.0620875,2022-06-08,23:35,Termoncarragh,mullet,clear,1,50,14,
+151,2022,8-ZOOM0003,54.2486754,-10.0620875,2022-06-08,23:39,Termoncarragh,mullet,clear,1,10,14,
+152,2022,8-ZOOM0004,54.2486754,-10.0620875,2022-06-08,23:42,Termoncarragh,mullet,clear,1,10,14,
+153,2022,8-ZOOM0005,54.249632,-10.074922,2022-06-09,00:11,Termoncarragh,mullet,overcast,1,15,13,
+154,2022,8-ZOOM0006,54.249632,-10.074922,2022-06-09,00:13,Termoncarragh,mullet,overcast,1,5,13,
+155,2022,8-ZOOM0007,54.2186549,-10.0317715,2022-06-09,01:00,Binghamstown,mullet,overcast,1,25,14,ghp warbler in the background
+156,2022,9-ZOOM0001,53.527979,-10.151864,2022-06-13,20:42,Omey Island (holiday house),galway,overcast,1,10,14,
+157,2022,9-ZOOM0002,53.527597,-10.150233,2022-06-13,22:38,Omey Island (holiday house),galway,overcast,1,20,14,
+158,2022,9-ZOOM0003,53.527597,-10.150233,2022-06-13,22:43,Omey Island (holiday house),galway,overcast,1,20,14,
+159,2022,9-ZOOM0004,53.527597,-10.150233,2022-06-13,23:54,Omey Island (holiday house),galway,overcast,2,10,13,
+160,2022,10-ZOOM0002,54.233257,-10.072321,2022-06-20,13:00,Annagh,mullet,clear,1,15,18,
+161,2022,10-ZOOM0003,54.233257,-10.072321,2022-06-20,13:05,Annagh,mullet,clear,1,15,18,
+162,2022,10-ZOOM0004,54.233257,-10.072321,2022-06-20,13:10,Annagh,mullet,clear,1,15,18,
+163,2022,10-ZOOM0005,54.216422,-10.028058,2022-06-21,00:30,Emlybeg,mullet,light rain,1,35,15,
+164,2022,10-ZOOM0006,54.216422,-10.028058,2022-06-21,00:35,Emlybeg,mullet,light rain,1,30,15,
+165,2022,10-ZOOM0009,54.254054,-9.993586,2022-06-21,01:10,Mushroom factory,mullet,overcast,1,50,14,Far and beyond hill
+166,2022,11-ZOOM0001,55.2083011,-7.8591812,2022-06-23,23:54,Downings,west_donegal,overcast,0,100,14,lots of eco around
+167,2022,11-ZOOM0002,55.2083011,-7.8591812,2022-06-24,00:00,Downings,west_donegal,overcast,0,50,14,lots of eco around
+168,2022,11-ZOOM0003,55.1882653,-7.981314,2022-06-24,00:42,Dunfanaghy,west_donegal,overcast,0,15,15,
+169,2022,11-ZOOM0004,55.1882653,-7.981314,2022-06-24,00:44,Dunfanaghy,west_donegal,overcast,0,5,15,
+170,2022,11-ZOOM0005,55.158245,-8.082098,2022-06-24,01:21,Errarooey Beg,west_donegal,overcast,0,15,14,
+171,2022,11-ZOOM0006,55.158245,-8.082098,2022-06-24,01:22,Errarooey Beg,west_donegal,overcast,0,10,14,
+172,2022,11-ZOOM0007,55.158591,-8.085375,2022-06-24,01:34,Errarooey Beg,west_donegal,overcast,0,20,14,
+173,2022,11-ZOOM0008,55.1403711,-8.1171561,2022-06-24,01:54,Falcarragh,west_donegal,overcast,0,5,14,
+174,2022,12-ZOOM0004,54.140429,-10.109159,2022-07-15,01:00,Tirraun,mullet,overcast,2,15,14,Machair (not ideal habitat)
+175,2022,12-ZOOM0005,54.140429,-10.109159,2022-07-15,01:01,Tirraun,mullet,overcast,2,10,14,
+176,2022,12-ZOOM0006,54.140429,-10.109159,2022-07-15,01:03,Tirraun,mullet,overcast,2,5,14,
+177,2022,12-ZOOM0007,54.216212,-10.028949,2022-07-16,00:22,Emlybeg North,mullet,overcast,0,30,15,Already recorded bird?
+178,2022,12-ZOOM0008,54.24184,-10.065477,2022-07-16,00:43,Termoncarragh,mullet,overcast,1,80,16,Small nettle patches
+179,2022,12-ZOOM0009,54.24184,-10.065477,2022-07-16,00:54,Termoncarragh,mullet,overcast,1,50,16,
+180,2022,12-ZOOM0010,54.24184,-10.065477,2022-07-16,00:57,Termoncarragh,mullet,overcast,1,10,16,
+181,2022,12-ZOOM0011,54.245737,-10.067395,2022-07-16,01:11,Termoncarragh,mullet,overcast,1,60,16,
+182,2022,12-ZOOM0012,54.245737,-10.067395,2022-07-16,01:13,Termoncarragh,mullet,overcast,1,40,16,
+183,2022,12-ZOOM0013,54.245737,-10.067395,2022-07-16,01:15,Termoncarragh,mullet,overcast,1,20,16,
+184,2022,12-ZOOM0014,54.253223,-9.993817,2022-07-16,01:37,Mushroom factory,mullet,overcast,0,30,15,
+185,2022,12-ZOOM0015,54.253223,-9.993817,2022-07-16,01:39,Mushroom factory,mullet,overcast,0,20,15,
+186,2022,13-ZOOM0001,55.137497,-8.129866,2022-07-26,23:25,"Glebe, Falcarragh",west_donegal,clear,0,10,10,
+187,2022,13-ZOOM0002,55.137497,-8.129866,2022-07-26,23:26,"Glebe, Falcarragh",west_donegal,clear,0,5,10,
+188,2022,13-ZOOM0003,55.13605,-8.133121,2022-07-26,23:32,Joe's field,west_donegal,clear,0,5,10,
+189,2022,13-ZOOM0004,55.13605,-8.133121,2022-07-26,23:34,Joe's field,west_donegal,clear,0,3,10,
+190,2022,13-ZOOM0005,55.188216,-7.981452,2022-07-27,00:40,Dunfanaghy,west_donegal,clear,0,15,10,
+191,2022,13-ZOOM0006,55.194075,-7.985858,2022-07-27,00:50,"Muntermellan, Upper Dunfanaghy",west_donegal,clear,0,20,9,
+192,2022,13-ZOOM0007,55.194075,-7.985858,2022-07-27,00:51,"Muntermellan, Upper Dunfanaghy",west_donegal,clear,0,20,10,
+193,2022,13-ZOOM0008,55.155312,-8.088291,2022-07-27,01:18,"Drumnatinny, Falcarragh",west_donegal,clear,0,50,6,
+194,2022,13-ZOOM0009,55.155312,-8.088291,2022-07-27,01:20,"Drumnatinny, Falcarragh",west_donegal,clear,0,50,6,
+195,2022,13-ZOOM0010,55.158116,-8.084671,2022-07-27,01:29,"Drumnatinny, Falcarragh",west_donegal,clear,0,30,6,
+196,2022,13-ZOOM0011,55.158116,-8.084671,2022-07-27,01:35,"Drumnatinny, Falcarragh",west_donegal,clear,0,30,6,
+197,2022,S4A16872_20220422,55.352139,-7.345437,2022-04-22,23:19,GAA Malin,east_donegal,overcast,2,NA,11,
+198,2022,S4A16866_20220506,54.253174,-9.993094,2022-05-06,22:12,Mushroom factory,west_donegal,clear,0,NA,13,
+199,2022,S4A16993_20220528,55.352138,-7.345437,2022-05-28,00:21,GAA Malin,east_donegal,overcast,1,NA,12,
+200,2022,S4A17026_20220601,55.135897,-8.13292,2022-06-01,00:48,Joe's field,west_donegal,light rain,0,NA,7,Another calling male further afar
+201,2022,S4A16904_20220601,55.376243,-7.363683,2022-06-01,11:49,Malin Head,east_donegal,clear,0,NA,22,Called briefly
+202,2022,S4A17026_20220613,54.253175,-9.993094,2022-06-13,05:22,Mushroom factory,mullet,light rain,1,NA,13,Another calling male further afar
+203,2022,S4A17026_20220614,54.253176,-9.993094,2022-06-14,18:20,Mushroom factory,mullet,light rain,2,NA,16,Loud soft-calls at the beggining
+204,2022,S4A16878_20220630,55.135898,-8.13292,2022-06-30,20:20,Joe's field,west_donegal,clear,0,NA,11,
+205,2022,S4A17031_20220711,54.268797,-10.032215,2022-07-11,01:50,Aghadoon,mullet,partly overcast,1,NA,13,
+206,2022,S4A16925_20220715,54.253173,-9.993094,2022-07-15,03:53,Mushroom factory,mullet,light rain,1,NA,14,
+207,2022,S4A16863_20220707,54.250062,-10.073022,2022-07-07,18:17,Termoncarragh,mullet,partly overcast,1,NA,15,Several soft calls
+208,2022,S4A16866_20220629,53.619914,-10.23319,2022-06-29,23:13,"Inishbofin, Westquarter",galway,partly overcast,1,NA,13,
