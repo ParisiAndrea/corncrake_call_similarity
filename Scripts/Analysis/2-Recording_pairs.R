@@ -7,7 +7,7 @@ sapply(c('data.table','dplyr',
        character.only=T)
 
 #####PART 1: CREATE DF
-setwd('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_similarity')
+setwd('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity')
 
 #COMPUTE PPD MATRIX
 
@@ -29,7 +29,7 @@ pmat = pmat %>%
 #COMPUTE DISTANCE MATRIX
 
 #open dataset with lon/lat info
-g = fread('./call_match.csv') %>%
+g = fread('./Call_similarity/call_match.csv') %>%
   arrange(., by = "id")
 
 #calculate distances
@@ -191,14 +191,14 @@ z = z %>%
   dplyr::select(-clusters)
 
 #merge to get dates, year for 1
-z = fread('./call_match.csv') %>%
+z = fread('./Call_similarity/call_match.csv') %>%
   mutate(file_name = paste(batch,file_name, sep = '-')) %>%
   dplyr::select(file_name,year,date,time,n_coor,w_coor) %>%
   rename(corncrake_1 = file_name) %>%
   merge(z,.,by = 'corncrake_1')
 
 #merge to get dates, year for 2
-z = fread('./call_match.csv') %>%
+z = fread('./Call_similarity/call_match.csv') %>%
   mutate(file_name = paste(batch,file_name, sep = '-')) %>%
   dplyr::select(file_name,year,date,time,n_coor,w_coor) %>%
   rename(corncrake_2 = file_name) %>%

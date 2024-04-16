@@ -6,7 +6,7 @@ ge = ggplot(ggpredict(mod1, terms = 'enn_mn'), aes(x, predicted)) +
   labs(x = 'Connectivity',
        y = expression('Distance'~(Log['10']))) +
   geom_ribbon(aes(ymin=conf.low, ymax=conf.high), fill = '#186356', alpha=0.15) +
-  scale_y_continuous(breaks = c(4,7,10)) +
+  #scale_y_continuous(breaks = c(4,7,10)) +
   theme_ggeffects() +
   theme(text=element_text(size=20),
         plot.margin = unit(c(1,0,1,0), "cm"))
@@ -18,7 +18,7 @@ gs = ggplot(ggpredict(mod1, terms = 'grass'), aes(x, predicted)) +
   geom_line(linewidth = 2) +
   labs(x = expression(paste('SNG area ', (Km^{2})))) +
   geom_ribbon(aes(ymin=conf.low, ymax=conf.high), fill = '#186356', alpha=0.15) +
-  scale_y_continuous(breaks = c(4,7,10)) +
+  scale_y_continuous(breaks = seq(0,2500,500)) +
   scale_x_continuous(breaks = c(0,.2,.4,.6,.8,1)) +
   theme_ggeffects() +
   theme(text=element_text(size=20),
@@ -31,7 +31,7 @@ print(gs)
 gm = ggplot(ggpredict(mod2, terms = 'margin'), aes(x, predicted)) + 
   geom_line(linewidth = 2) +
   labs(x = expression(paste('Margin area ', (Km^{2})))) +
-  scale_y_continuous(breaks = c(4,6,8)) +
+  scale_y_continuous(breaks = seq(0,1500,500)) +
   scale_x_continuous(breaks = c(0,.02,.04,.06,.08,.1)) +
   geom_ribbon(aes(ymin=conf.low, ymax=conf.high), fill = '#F78104', alpha=0.15) +
   theme_ggeffects() +

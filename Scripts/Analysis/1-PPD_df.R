@@ -6,7 +6,7 @@ sapply(c('data.table','dplyr',
 
 #OPEN DF
 #set working directory
-setwd('C:/Users/G00399072/OneDrive - Atlantic TU/Desktop/call_similarity')
+setwd('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity')
 
 dc = fread('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/PPD_files.csv')
 
