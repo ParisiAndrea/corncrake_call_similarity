@@ -78,4 +78,3 @@ ggsave(filename = 'estimates.jpg',
        dpi = 600)
 
 #END
-
