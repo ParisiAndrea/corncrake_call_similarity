@@ -9,6 +9,7 @@ mod2 =  lm(distance ~
            na.action = "na.fail",
            xy)
 
+dredge(mod2, rank = 'AIC')
 #model diagnostic and summary
 summary(mod2)
 #report(mod2)
