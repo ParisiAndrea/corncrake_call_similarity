@@ -29,10 +29,16 @@ g1 = ggplot(data.frame(amp = wav1@left,
   geom_line(aes(time, amp), color = '#186356') +
   scale_x_continuous(name = 'Time (s)') +
   scale_y_continuous('Amplitude (kU)') +
-  theme_pubr() +
+  theme_pubr(15) +
   theme(axis.text.y = element_text(angle = 90, vjust = 1, hjust=.5))
 
 print(g1)
+
+ggsave(filename = 'wave1.jpg',  #filename = 'wave.svg'
+       path = 'C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Graphs',
+       g1,
+       width = 200, height = 100, units = "mm",
+       dpi = 600)
 
 ###
 g2 = ggplot(data.frame(amp = wav2@left,
