@@ -17,35 +17,6 @@ recs = spTransform(recs, CRS('EPSG: 29902')) %>%
 
 recs = fortify(recs)
 
-###IRELAND
-ire_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/ireland.shp')
-
-ire_shp = spTransform(ire_shp, CRS('EPSG: 29902'))
-
-ire_shp = fortify(ire_shp)
-
-ire <- p + geom_polygon(data=ire_shp, aes(x=long, y=lat, group=group), 
-                        colour='grey40', fill="white") +
-  geom_rect(aes(ymax = 2.7e+5, ymin = 2.5e+5, xmin = .5e+5, xmax = .6e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
-  geom_rect(aes(ymax = 3.45e+5, ymin = 3.15e+5, xmin = .6e+5, xmax = .75e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
-  geom_rect(aes(ymax = 4.45e+5, ymin = 4.3e+5, xmin = 1.85e+5, xmax = 2.1e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
-  geom_rect(aes(ymax = 4.6e+5, ymin = 4.45e+5, xmin = 2.3e+5, xmax = 2.45e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
-  annotate("text", x=.4e+5, y=2.7e+5, label= "d", fontface =2, size = 8) +
-  annotate("text", x=.5e+5, y=3.45e+5, label= "c", fontface =2, size = 8) +
-  annotate("text", x=1.75e+5, y=4.45e+5, label= "b", fontface =2, size = 8) +
-  annotate("text", x=2.2e+5, y=4.6e+5, label= "a", fontface =2, size = 8) +
-  ggsn::scalebar(ire_shp, dist_unit = 'km', dist = 50, transform = F, 
-                 st.dist = 0.02, st.size=4, height=0.02, location = 'bottomright') +
-  ggsn::north(data = ire_shp, symbol=3) +
-  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
-        panel.background = element_rect(fill = 'white', colour = 'white'), 
-        axis.line = element_line(colour = "white"), legend.position="none",
-        axis.ticks=element_blank(), axis.text.x=element_blank(),
-        axis.text.y=element_blank()) +
-  theme_void()
-  
-ire
-
 ###MULLET
 mul_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/mullet.shp')
 
@@ -140,6 +111,48 @@ edo <- p +
         axis.text.y=element_blank())
 
 edo
+
+###IRELAND
+ire_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/ireland.shp')
+ire_shp = spTransform(ire_shp, CRS('EPSG: 29902'))
+ire_shp = fortify(ire_shp)
+
+nire_shp = readOGR('C:/Users/G00399072/OneDrive - Atlantic TU/Documents/corncrake_call_similarity/Files/Shapefiles/n_ireland.shp')
+nire_shp = spTransform(nire_shp, CRS('EPSG: 29902'))
+nire_shp = fortify(nire_shp)
+
+ire <- p + 
+  geom_polygon(data=ire_shp, aes(x=long, y=lat, group=group), 
+                        colour='grey40', fill="white") +
+  geom_polygon(data=nire_shp, aes(x=long, y=lat, group=group), 
+               colour='grey40', fill="white") +
+  geom_polygon(data=mul_shp, aes(x=long, y=lat, group=group), 
+               colour='grey40', fill="#FAAB36") +
+  geom_polygon(data=wdo_shp, aes(x=long, y=lat, group=group), 
+               colour='grey40', fill="#FAAB36") +
+  geom_polygon(data=edo_shp, aes(x=long, y=lat, group=group), 
+               colour='grey40', fill="#FAAB36") +
+  geom_polygon(data=gal_shp, aes(x=long, y=lat, group=group), 
+               colour='grey40', fill="#FAAB36") +
+  geom_rect(aes(ymax = 2.8e+5, ymin = 2.4e+5, xmin = .4e+5, xmax = .7e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
+  geom_rect(aes(ymax = 3.5e+5, ymin = 3.1e+5, xmin = .5e+5, xmax = .8e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
+  geom_rect(aes(ymax = 4.5e+5, ymin = 4.2e+5, xmin = 1.8e+5, xmax = 2.2e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
+  geom_rect(aes(ymax = 4.7e+5, ymin = 4.4e+5, xmin = 2.3e+5, xmax = 2.5e+5), fill = NA, color = '#FAAB36', linewidth = 1) +
+  annotate("text", x=.3e+5, y=2.7e+5, label= "d", fontface =2, size = 8) +
+  annotate("text", x=.4e+5, y=3.45e+5, label= "c", fontface =2, size = 8) +
+  annotate("text", x=1.7e+5, y=4.45e+5, label= "b", fontface =2, size = 8) +
+  annotate("text", x=2.2e+5, y=4.8e+5, label= "a", fontface =2, size = 8) +
+  ggsn::scalebar(ire_shp, dist_unit = 'km', dist = 50, transform = F, 
+                 st.dist = 0.02, st.size=4, height=0.02, location = 'bottomright') +
+  ggsn::north(data = ire_shp, symbol=3, location = "topleft") + 
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
+        panel.background = element_rect(fill = 'white', colour = 'white'), 
+        axis.line = element_line(colour = "white"), legend.position="none",
+        axis.ticks=element_blank(), axis.text.x=element_blank(),
+        axis.text.y=element_blank()) +
+  theme_void()
+
+ire
 
 #COMBINE
 mp = ggarrange(ggarrange(edo,
